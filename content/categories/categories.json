@@ -1,0 +1,135 @@
+[
+  {
+    "id": 24,
+    "name": "Bath",
+    "slug": "bath",
+    "description": "",
+    "count": 30
+  },
+  {
+    "id": 26,
+    "name": "Bedroom",
+    "slug": "bedroom",
+    "description": "",
+    "count": 20
+  },
+  {
+    "id": 43,
+    "name": "Design",
+    "slug": "design",
+    "description": "<p data-start=\"841\" data-end=\"1185\">Discover home design ideas that balance beauty and function. From layout and lighting inspiration to furniture styles and trending color palettes, we cover it all. You’ll also find tips on how to bring cohesion and personality into every room. Whether you’re renovating or redecorating, let your design vision take shape here.</p>\r\n<p data-start=\"1187\" data-end=\"1298\"></p>",
+    "count": 23
+  },
+  {
+    "id": 40,
+    "name": "Dining Room",
+    "slug": "dining-room",
+    "description": "",
+    "count": 3
+  },
+  {
+    "id": 41,
+    "name": "Exterior",
+    "slug": "exterior",
+    "description": "Welcome to our Exterior Design &amp; Improvement hub — where curb appeal meets lasting value. Browse expert advice on everything from choosing architectural exterior paint and selecting the right siding materials, to enhancing outdoor living with patios and front-porch upgrades. Planning a full exterior renovation? We've got in-depth guides on landscaping integration, lighting solutions, and exterior design trends to help you make your home stand out.",
+    "count": 59
+  },
+  {
+    "id": 33,
+    "name": "Guides",
+    "slug": "guides",
+    "description": "",
+    "count": 12
+  },
+  {
+    "id": 23,
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "description": "",
+    "count": 44
+  },
+  {
+    "id": 36,
+    "name": "Landscaping",
+    "slug": "landscaping",
+    "description": "",
+    "count": 17
+  },
+  {
+    "id": 30,
+    "name": "Laundry",
+    "slug": "laundry",
+    "description": "",
+    "count": 7
+  },
+  {
+    "id": 22,
+    "name": "Living Room",
+    "slug": "living-room",
+    "description": "",
+    "count": 102
+  },
+  {
+    "id": 42,
+    "name": "Organization",
+    "slug": "organization",
+    "description": "<p data-start=\"3482\" data-end=\"3821\">Clutter has a way of creeping in until now. Explore room-by-room strategies to help you stay organized, from closet systems and pantry setups to garage storage and entryway solutions. We’ll show you how to make the most of your space with simple tools and clever hacks. Say goodbye to the mess and hello to peace of mind.</p>\r\n<p data-start=\"3823\" data-end=\"3928\"></p>",
+    "count": 22
+  },
+  {
+    "id": 31,
+    "name": "Patio",
+    "slug": "patio",
+    "description": "",
+    "count": 25
+  },
+  {
+    "id": 34,
+    "name": "Popular",
+    "slug": "popular",
+    "description": "",
+    "count": 6
+  },
+  {
+    "id": 44,
+    "name": "Product Reviews",
+    "slug": "product-reviews",
+    "description": "",
+    "count": 1
+  },
+  {
+    "id": 39,
+    "name": "Real Estate",
+    "slug": "real-estate",
+    "description": "<p data-start=\"2958\" data-end=\"3283\">Whether you're buying, selling, or staying put, understanding the real estate market is key. This category offers tips on staging, pricing, renovations that add value, and navigating home transactions. We also share market trends to watch. Make smarter property decisions with insight from real estate pros.</p>\r\n<p data-start=\"3285\" data-end=\"3397\"></p>",
+    "count": 47
+  },
+  {
+    "id": 38,
+    "name": "Renovations",
+    "slug": "renovations",
+    "description": "<p data-start=\"1381\" data-end=\"1714\">Thinking about remodeling? This category explores renovation projects of all sizes, from bathroom facelifts to full kitchen overhauls. Learn what to expect during a remodel, how to budget, and where to splurge. You’ll also get practical ideas, timelines, and before-and-after inspiration to guide your next upgrade.</p>\r\n<p data-start=\"1716\" data-end=\"1833\"></p>",
+    "count": 62
+  },
+  {
+    "id": 1,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "description": "",
+    "count": 27
+  },
+  {
+    "id": 35,
+    "name": "Utilities",
+    "slug": "utilities",
+    "description": "<p data-start=\"2428\" data-end=\"2774\">Utilities may not be glamorous, but they’re the backbone of a comfortable home. In this section, we break down HVAC systems, water heaters, insulation, and energy-efficient upgrades. Learn how to spot problems early, schedule maintenance, and improve performance. Keep your systems running smoothly and your bills under control.</p>\r\n<p data-start=\"2776\" data-end=\"2875\"></p>",
+    "count": 51
+  },
+  {
+    "id": 37,
+    "name": "Yard",
+    "slug": "yard",
+    "description": "<p data-start=\"1902\" data-end=\"2240\">Your yard is an extension of your home and your lifestyle. Here, you’ll find landscaping ideas, garden inspiration, and creative ways to make outdoor spaces more enjoyable. Whether you’re working with a small patio or a large backyard, we cover functional, beautiful upgrades. Let your outdoor space work harder for you.</p>\r\n<p data-start=\"2242\" data-end=\"2349\"></p>",
+    "count": 11
+  }
+]

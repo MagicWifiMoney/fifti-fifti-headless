@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fifti Fifti - Headless Next.js Blog
 
-## Getting Started
+A modern, headless Next.js implementation of the Fifti Fifti home decor and design blog.
 
-First, run the development server:
+## 📊 Stats
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **534 blog posts** - All migrated from WordPress
+- **19 pages** - Static pages and content
+- **19 categories** - Home decor, design, lifestyle topics
+- **2,180 affiliate links** - Preserved with tracking across 512 posts
+- **100% Static** - All pages pre-rendered for blazing fast performance
+
+## 🚀 Tech Stack
+
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **MDX** - Markdown with React components
+- **Turbopack** - Fast bundler
+
+## 📁 Project Structure
+
+```
+├── app/                    # Next.js app router pages
+│   ├── blog/              # Blog listing and individual posts
+│   ├── category/          # Category pages
+│   ├── layout.tsx         # Root layout with Header/Footer
+│   ├── sitemap.ts         # Auto-generated sitemap
+│   └── robots.ts          # SEO robots.txt
+├── components/            # Reusable React components
+│   ├── Header.tsx         # Site navigation
+│   ├── Footer.tsx         # Site footer
+│   └── BlogCard.tsx       # Blog post card component
+├── content/               # All blog content (MDX)
+│   ├── posts/            # 534 blog posts in MDX format
+│   ├── pages/            # Static pages
+│   ├── categories/       # Category metadata
+│   └── posts-index.json  # Post index for fast lookups
+└── lib/                   # Utility functions
+    └── posts.ts          # Content fetching logic
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Fully responsive design
+- ✅ SEO optimized (meta tags, structured data, sitemap)
+- ✅ Affiliate link tracking system
+- ✅ Category-based navigation
+- ✅ Fast static generation
+- ✅ Mobile-friendly
+- ✅ Clean, modern design
+- ✅ Image optimization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔗 Affiliate Links
 
-## Learn More
+The site preserves all affiliate links from the original WordPress site with `data-lasso-id` attributes for tracking. Affiliate disclosures are automatically shown on posts containing affiliate links.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run development server
+npm run dev
 
-## Deploy on Vercel
+# Build for production
+npm run build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Start production server
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Content Management
+
+Content is stored as MDX files in the `content/` directory. Each post includes:
+
+- Frontmatter metadata (title, date, categories, SEO data)
+- Affiliate link information
+- Featured images
+- Structured data for search engines
+
+## 🚢 Deployment
+
+Deployed on **Vercel** for optimal performance and automatic deployments from GitHub.
+
+## 📄 License
+
+All content © Fifti Fifti. All rights reserved.
+
+## 🔄 WordPress Integration
+
+The original WordPress site remains active at fifti-fifti.net for content management. This Next.js frontend can pull updates via the WordPress REST API or manual exports.
+
+---
+
+Built with ❤️ using Next.js

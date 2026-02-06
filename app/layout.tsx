@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -19,21 +15,25 @@ export const metadata: Metadata = {
     default: "Fifti Fifti - Home Decor and Design for All",
     template: "%s | Fifti Fifti"
   },
-  description: "Discover inspiring home decor ideas, interior design tips, and lifestyle inspiration for creating beautiful living spaces.",
-  keywords: ["home decor", "interior design", "lifestyle", "home improvement", "design ideas"],
-  authors: [{ name: "Fifti Fifti" }],
+  description: "Your trusted source for home decor inspiration, interior design tips, and lifestyle ideas. Empowering homeowners since 2015.",
+  keywords: ["home decor", "interior design", "lifestyle", "home improvement", "design ideas", "furniture", "room design", "decorating tips"],
+  authors: [{ name: "Fifti Fifti Editorial Team" }],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://fifti-fifti.net",
     siteName: "Fifti Fifti",
     title: "Fifti Fifti - Home Decor and Design for All",
-    description: "Discover inspiring home decor ideas, interior design tips, and lifestyle inspiration for creating beautiful living spaces.",
+    description: "Your trusted source for home decor inspiration, interior design tips, and lifestyle ideas.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Fifti Fifti - Home Decor and Design for All",
-    description: "Discover inspiring home decor ideas, interior design tips, and lifestyle inspiration for creating beautiful living spaces.",
+    description: "Your trusted source for home decor inspiration, interior design tips, and lifestyle ideas.",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -43,10 +43,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
-      >
+    <html lang="en" className={inter.variable}>
+      <body className="antialiased min-h-screen flex flex-col bg-gray-50">
         <Header />
         <main className="flex-1">
           {children}

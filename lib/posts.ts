@@ -95,13 +95,32 @@ export function getAllPageSlugs() {
     .map(fileName => fileName.replace(/\.mdx$/, ''));
 }
 
+export interface Page {
+  slug: string;
+  title: string;
+  date: string;
+  modified: string;
+  excerpt: string;
+  content: string;
+  seo?: {
+    metaDescription?: string;
+    ogImage?: string | null;
+    canonical?: string;
+  };
+}
+
 // Get page data by slug
-export function getPageBySlug(slug: string) {
+export function getPageBySlug(slug: string): Page {
   const fullPath = path.join(pagesDirectory, `${slug}.mdx`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
   return {
+    title: data.title || '',
+    date: data.date || '',
+    modified: data.modified || '',
+    excerpt: data.excerpt || '',
+    seo: data.seo,
     slug,
     content,
     ...data
